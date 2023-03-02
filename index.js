@@ -17,3 +17,8 @@ app.get('/' , function(req , res){
     return res.sendFile(__dirname + "/home.html");
     // res.send("<h1>hello</h1>")
 })
+
+app.get('/about' , function(req , res){
+
+    res.send("<h1>this is about section</h1>")
+})
